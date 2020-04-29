@@ -1,0 +1,2 @@
+rootProject.name='E&P Summon Sim'
+include ':app'

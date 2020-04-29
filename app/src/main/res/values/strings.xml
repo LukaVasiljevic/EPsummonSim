@@ -1,0 +1,1747 @@
+<resources>
+    <string name="app_name">E&amp;P Sim &#128481; </string>
+
+    <string name="choose">Choose Summon:</string>
+    <string name="elemental_choose">Choose Element:</string>
+    <string name="seasonal_choose">Choose Season:</string>
+    <string name="event_choose">Choose Event:</string>
+
+    <string name="summon">SUMMON</string>
+
+    <string-array name="choose_main">
+        <item>Daily Summon</item>
+        <item>Epic Troop Summon</item>
+        <item>Epic Hero Summon</item>
+        <item>Elemental Summon</item>
+        <item>Valhalla Summon</item>
+        <item>Atlantis Summon</item>
+        <item>Seasonal Summon</item>
+        <item>Event Summon</item>
+        <item>Costume Summon</item>
+    </string-array>
+
+    <string-array name="choose_elemental">
+        <item>Dark</item>
+        <item>Fire</item>
+        <item>Holy</item>
+        <item>Ice</item>
+        <item>Nature</item>
+    </string-array>
+
+    <string-array name="choose_seasonal">
+        <item>Christmas</item>
+        <item>Easter</item>
+        <item>Halloween</item>
+        <item>Summer Solstice</item>
+    </string-array>
+
+    <string-array name="choose_event">
+        <item>Guardians of Teltoc</item>
+        <item>Fables of Grimforest</item>
+        <item>Knights of Avalon</item>
+        <item>Pirates of Corellia</item>
+        <item>Riddles of Wonderland</item>
+    </string-array>
+
+    <string-array name="troops">
+        <!-- GREEN -->
+        <item>
+            <name>Deepwood Enchanters</name>
+            <color>Nature</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Rebel Rogues</name>
+            <color>Nature</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Village Fighters</name>
+            <color>Nature</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Rebel Archers</name>
+            <color>Nature</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Rebel Illusionists</name>
+            <color>Nature</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Rebel Sharpshooters</name>
+            <color>Nature</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Deepwood Ents</name>
+            <color>Nature</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Deepwood Elder Ents</name>
+            <color>Nature</color>
+            <stars>4</stars>
+        </item>
+        <item>
+            <name>Rebel Infiltrators</name>
+            <color>Nature</color>
+            <stars>4</stars>
+        </item>
+
+        <!-- BLUE -->
+        <item>
+            <name>Imperial Strikers</name>
+            <color>Ice</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Militia Archers</name>
+            <color>Ice</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Imperial Soldiers</name>
+            <color>Ice</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Militia Rookies</name>
+            <color>Ice</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Imperial Knights</name>
+            <color>Ice</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Imperial Elite Strikers</name>
+            <color>Ice</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Ravager Archers</name>
+            <color>Ice</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Ravager Warriors</name>
+            <color>Ice</color>
+            <stars>4</stars>
+        </item>
+        <item>
+            <name>Imperial Knight Lords</name>
+            <color>Ice</color>
+            <stars>4</stars>
+        </item>
+
+
+        <!-- RED -->
+        <item>
+            <name>Barbaric Monks</name>
+            <color>Fire</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Firecaller Wizards</name>
+            <color>Fire</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Barbaric Berserkers</name>
+            <color>Fire</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Firecaller Battlemages</name>
+            <color>Fire</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Barbaric Maulers</name>
+            <color>Fire</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Barbaric Minotaurs</name>
+            <color>Fire</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Barbaric Assassins</name>
+            <color>Fire</color>
+            <stars>4</stars>
+        </item>
+        <item>
+            <name>Barbaric Alpha Minotaurs</name>
+            <color>Fire</color>
+            <stars>4</stars>
+        </item>
+
+        <!-- PURPLE -->
+        <item>
+            <name>Reanimated Fighters</name>
+            <color>Dark</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Guild Initiates</name>
+            <color>Dark</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Guild Assassins</name>
+            <color>Dark</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Guild Strikers</name>
+            <color>Dark</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Reanimated Knights</name>
+            <color>Dark</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Guild Knights</name>
+            <color>Dark</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Reanimated Fighters</name>
+            <color>Dark</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Mystic Mages</name>
+            <color>Dark</color>
+            <stars>4</stars>
+        </item>
+        <item>
+            <name>Reanimated Master Knights</name>
+            <color>Dark</color>
+            <stars>4</stars>
+        </item>
+
+        <!-- YELLOW -->
+        <item>
+            <name>Monastic Rogues</name>
+            <color>Holy</color>
+            <stars>1</stars>
+        </item>
+        <item>
+            <name>Devout Wizards</name>
+            <color>Holy</color>
+            <stars>2</stars>
+        </item>
+        <item>
+            <name>Exalted Monks</name>
+            <color>Holy</color>
+            <stars>2</stars>
+        </item>
+
+        <item>
+            <name>Devout Battlers</name>
+            <color>Holy</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Devout Assassins</name>
+            <color>Holy</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Exalted Guardian Constructs</name>
+            <color>Holy</color>
+            <stars>3</stars>
+        </item>
+        <item>
+            <name>Exalted War Constructs</name>
+            <color>Holy</color>
+            <stars>4</stars>
+        </item>
+        <item>
+            <name>Monastic Battlemages</name>
+            <color>Holy</color>
+            <stars>4</stars>
+        </item>
+    </string-array>
+
+    <!--
+    CODE:
+    Hero of the Month -                 HM
+    Atlantis Hero -                     AH
+    Riddles of Wonderland -             RW
+    Sand Empire/ Summer Solstice   -    SS
+    Knights of Avalon -                 KA
+    Vallhala Hero -                     VH
+    Pirates of Corelia -                PC
+    Fables of Grimforest -              FG
+    Christmas Hero -                    CH
+    Easter Hero -                       EH
+    Daily Summon -                      DS
+    Guardians of Teltoc -               GT
+    Halloween -                         HW
+    za elemental:
+    TC13
+    TC20
+
+    -->
+
+    <string-array name="heroes">
+    <item>
+    <hero>Aegir</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Aeron</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Agwe</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Aife</hero>
+    <color>Nature</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Alaise</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Alberich</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Alice</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Ameonna</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Anzogh</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Ares</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Ariel</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Arman</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Athena</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Atomos</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Azar</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Azlar</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Balthazar</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Bane</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Bauchan</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Belith</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Berden</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Bjorn</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Black Knight</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Boldtusk</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Boomer</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Boril</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Boss Wolf</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Brand</hero>
+    <color>Ice</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Brienne</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Brogan</hero>
+    <color>Nature</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Brynhild</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Buddy</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>CH</class>
+    </item>
+        <item>
+    <hero>By-Ulf</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Caedmon</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Captain Kestrel</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Captain of Diamonds</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Carver</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Chao</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Cheshire Cat</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Chochin</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Colen</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Cyprian</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Danzaburo</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Dawa</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Delilah</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Derric</hero>
+    <color>Nature</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Domitia</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Drake Fong</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Ei-Dunn</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Elena</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Elkanen</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Evelyn</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Farid</hero>
+    <color>Fire</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Fenrir</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Finley</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Fletcher</hero>
+    <color>Dark</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Freya</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Friar Tuck</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Frida</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Gaderius</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Gafar</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Gan Ju</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Gato</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Gill-Ra</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Gobbler</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Gormek</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Gravemaker</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Graymane</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Grazul</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Gregorion</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Gretel</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Grimble</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Grimm</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Guardian Bat</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Chameleon</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Falcon</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Gazelle</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Jackal</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Kong</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Owl</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guardian Panther</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>GT</class>
+    </item>
+        <item>
+    <hero>Guinevere</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Gunnar</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Hansel</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Hawkmoon</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Heimdall</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Hel</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Hikaru</hero>
+    <color>Holy</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Hisan</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Horghall</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Hou</hero>
+    <color>Holy</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Hu Tao</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Inari</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Isarnia</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Isshtak</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Jabbar</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Jabberwock</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Jack OHare</hero> <!-- POGLEDAJ APOSTROF-->
+            <color>Nature</color>
+    <stars>4</stars>
+    <class>EH</class>
+    </item>
+        <item>
+    <hero>Jahangir</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Jean-François</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Jenneh</hero>
+    <color>Nature</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Jill</hero>
+    <color>Fire</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Joon</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Julius</hero>
+    <color>Dark</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Justice</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Kadilen</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Kageburado</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Kailani</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Karil</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Kashhrek</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Kelile</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Kenjiro</hero>
+    <color>Holy</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Khagan</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Khiona</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>King Arthur</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Kiril</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Kunchen</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Kvasir</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Zudak</hero>
+    <color>Fire</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Zimkitha</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Zeline</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Yunan</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Wu Kong</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Wilbur</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>White Rabbit</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Vodnik</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Vlad</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>HW</class>
+    </item>
+        <item>
+    <hero>Vivica</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Victor</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HW</class>
+    </item>
+        <item>
+    <hero>Vela</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Valeria</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>HW</class>
+    </item>
+        <item>
+    <hero>Valen</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Ursena</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Ulmer</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Tyrum</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Tyr</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Tudan</hero>
+    <color>Fire</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Triton</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Toril</hero>
+    <color>Ice</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Tiburtus</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Thoth-Amun</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Thorne</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>The Hatter</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Telluria</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Tarlak</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Sumle</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Sumitomo</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Stonecleave</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Squire Wabbit</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>EH</class>
+    </item>
+        <item>
+    <hero>Sonya</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Snow White</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Skittleskull</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Sir Lancelot</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Silthus</hero>
+    <color>Dark</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Sigrunn</hero>
+    <color>Ice</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Sif</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Shrubbear</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Sharan</hero>
+    <color>Fire</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Shaarkot</hero>
+    <color>Fire</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Sha Ji</hero>
+    <color>Holy</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Seshat</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Scarlett</hero>
+    <color>Fire</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Sartana</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Sargasso</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Santa Claus</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>CH</class>
+    </item>
+        <item>
+    <hero>Sabina</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Rumpelstiltskin</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Rudolph</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>CH</class>
+    </item>
+        <item>
+    <hero>Rigard</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Richard</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Renfeld</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Red Hood</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Ratatoskr</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Ranvir</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Rana</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>SS</class>
+    </item>
+        <item>
+    <hero>Ragnhild</hero>
+    <color>Ice</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Quintus</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Queen of Hearts</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>RW</class>
+    </item>
+        <item>
+    <hero>Puss in Boots</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Proteus</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Prisca</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Poseidon</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Pixie</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>FG</class>
+    </item>
+        <item>
+    <hero>Peters</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Perseus</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Onatel</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Olaf</hero>
+    <color>Ice</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Oberon</hero>
+    <color>Dark</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Obakan</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Norns</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Nordri</hero>
+    <color>Ice</color>
+    <stars>3</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Nightshade</hero>
+    <color>Dark</color>
+    <stars>1</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Neith</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Needler</hero>
+    <color>Nature</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Natalya</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Nashgar</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>TC13</class>
+    </item>
+        <item>
+    <hero>Nash</hero>
+    <color>Holy</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Namahage</hero>
+    <color>Fire</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Masashi</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Muggy</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Mother North</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>CH</class>
+    </item>
+        <item>
+    <hero>Morgan Le Fay</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Mok-Arr</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Mnesseus</hero>
+    <color>Nature</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Mitsuko</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Mist</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Misandra</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Mireweave</hero>
+    <color>Ice</color>
+    <stars>4</stars>
+    <class>VH</class>
+    </item>
+        <item>
+    <hero>Miki</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Merlin</hero>
+    <color>Dark</color>
+    <stars>4</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Melia</hero>
+    <color>Holy</color>
+    <stars>3</stars>
+    <class>AH</class>
+    </item>
+        <item>
+    <hero>Melendor</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Master Lepus</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>EH</class>
+    </item>
+        <item>
+    <hero>Marjana</hero>
+    <color>Fire</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Marie-Thérèse</hero>
+    <color>Dark</color>
+    <stars>5</stars>
+    <class>PC</class>
+    </item>
+        <item>
+    <hero>Margaret</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>HM</class>
+    </item>
+        <item>
+    <hero>Magni</hero>
+    <color>Ice</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Little John</hero>
+    <color>Nature</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Lianna</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Li Xiu</hero>
+    <color>Holy</color>
+    <stars>4</stars>
+    <class>TC20</class> <!-- takodje i TC13 -->
+    </item>
+        <item>
+    <hero>Leonidas</hero>
+    <color>Holy</color>
+    <stars>5</stars>
+    <class>TC20</class>
+    </item>
+        <item>
+    <hero>Layla</hero>
+    <color>Dark</color>
+    <stars>2</stars>
+    <class>DS</class>
+    </item>
+        <item>
+    <hero>Lady of the Lake</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>KA</class>
+    </item>
+        <item>
+    <hero>Lady Locke</hero>
+    <color>Nature</color>
+    <stars>5</stars>
+    <class>PC</class>
+    </item>
+
+    </string-array>
+
+    <string-array name="costumes">
+        <item>
+            <name>Horghall – Wooden Jester</name>
+            <star>5</star>
+            <color>Nature</color>
+        </item>
+        <item>
+            <name>Lianna – The Noble Guardian</name>
+            <star>5</star>
+            <color>Nature</color>
+        </item>
+        <item>
+            <name>Gunnar – Brave Blacksmith</name>
+            <star>3</star>
+            <featured>0</featured>
+            <color>Ice</color>
+        </item>
+        <item>
+            <name>Bane – Noble Brawler</name>
+            <star>3</star>
+            <color>Holy</color>
+        </item>
+        <item>
+            <name>Tiburtus – Duke of Rock</name>
+            <star>4</star>
+            <color>Dark</color>
+        </item>
+        <item>
+            <name>Li Xiu – Ceremonial Assassin</name>
+            <star>4</star>
+            <color>Holy</color>
+        </item>
+        <item>
+            <name>Melendor – Mighty Wizard</name>
+            <star>4</star>
+            <color>Nature</color>
+        </item>
+        <item>
+            <name>Joon – Fury of the Sun</name>
+            <star>5</star>
+            <color>Holy</color>
+        </item>
+        <item>
+            <name>Elena – Captain of Fire</name>
+            <star>5</star>
+            <color>Fire</color>
+        </item>
+        <item>
+            <name>Skittleskull – Candy Witch</name>
+            <star>4</star>
+            <color>Nature</color>
+        </item>
+        <item>
+            <name>Vivica – Magician Supreme</name>
+            <star>5</star>
+            <color>Holy</color>
+        </item>
+        <item>
+            <name>Isarnia – Ice Witch of Glaceholm</name>
+            <star>5</star>
+            <color>Ice</color>
+        </item>
+        <item>
+            <name>Richard – Axe of Justice</name>
+            <star>5</star>
+            <color>Ice</color>
+        </item>
+        <item>
+            <name>Sonya – Viking Champion</name>
+            <star>4</star>
+            <color>Ice</color>
+        </item>
+        <item>
+            <name>Hawkmoon – Ascendant Chief</name>
+            <star>3</star>
+            <color>Fire</color>
+        </item>
+        <item>
+            <name>Rigard – Dapper Noble</name>
+            <star>4</star>
+            <color>Dark</color>
+        </item>
+        <item>
+            <name>Brienne – Shaman of Concordia</name>
+            <star>3</star>
+            <color>Nature</color>
+        </item>
+        <item>
+            <name>Quintus – Electro Scientist</name>
+            <star>5</star>
+            <color>Dark</color>
+        </item>
+        <item>
+            <name>Tyrum – Roman Remnant</name>
+            <star>3</star>
+            <color>Dark</color>
+        </item>
+        <item>
+            <name>Boldtusk – Cast Iron Chef</name>
+            <star>4</star>
+            <color>Fire</color>
+        </item>
+    </string-array>
+</resources>
